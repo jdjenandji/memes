@@ -1,24 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meme Caption Generator
+
+A Next.js application that generates contextual meme captions using AI. Upload text and get AI-generated captions for memes that match your content.
+
+## Features
+
+- Upload text files to provide context
+- Generate AI captions for memes using GPT-4
+- View all memes in the collection
+- Responsive design for all screen sizes
+- Integration with Supabase for meme storage
+
+## Tech Stack
+
+- Next.js 15.2.3
+- TypeScript
+- Tailwind CSS
+- OpenAI GPT-4
+- Supabase
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env.local` file with your credentials:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_KEY=your_supabase_key
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_key
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project can be deployed on Vercel with automatic deployments configured through GitHub.
 
 ## Learn More
 
