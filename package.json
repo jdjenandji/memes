@@ -1,16 +1,29 @@
 {
-  "name": "meme-generator",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "meme-caption-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "latest",
-    "dotenv": "^16.4.7",
-    "node-fetch": "^2.7.0",
-    "openai": "latest"
+    "@supabase/supabase-js": "^2.49.1",
+    "next": "15.2.3",
+    "openai": "^4.89.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "ts-node": "latest",
-    "typescript": "latest"
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
