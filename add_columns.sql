@@ -1,0 +1,1 @@
+ALTER TABLE memes ADD COLUMN template TEXT, ADD COLUMN schema TEXT;

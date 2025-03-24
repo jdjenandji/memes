@@ -1,0 +1,36 @@
+.vercel
+
+# Node.js
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+downloaded_memes/
+Curated/
+Curated.zip
+all-urls.txt
+
+# Build output
+.next/
+dist/
+build/
+out/
